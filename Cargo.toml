@@ -2,6 +2,18 @@
 name = "xmenu"
 version = "0.1.0"
 edition = "2021"
+description = "Make interactive menu with xmenu. More updates coming soon."
+keywords = ["d33pster", "menu", "xmenu", "interactive-menu", "dynamic-menu"]
+categories = ["command-line-interface"]
+authors = ["Soumyo Deep Gupta <deep.main.ac@gmail.com>"]
+repository = "https://github.com/d33pster/xmenu"
+license-file = "LICENSE"
+readme = "README.md"
 
 [dependencies]
+colorized = "1.0.0"
 crossterm = "0.27.0"
+
+[[bin]]
+name = "xmenu"
+path = "src/main.rs"
