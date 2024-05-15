@@ -81,7 +81,7 @@ impl Xmenu {
                 }
 
                 // redraw the menu
-                Xmenu::draw_menu(&menu_items, selected_index, orig_x, orig_y);
+                Xmenu::draw_menu(&menu_items, selected_index, orig_x, orig_y - menu_height);
             }
         }
 
